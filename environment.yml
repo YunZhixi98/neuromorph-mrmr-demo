@@ -1,0 +1,20 @@
+name: mrmr_demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.13
+  - scikit-learn=1.5
+  - matplotlib
+  - seaborn-base=0.13
+  - jupyterlab
+  - openpyxl
+  - cython=0.29.37
+  - pip
+  - pip:
+      - mrmr-selection==0.2.8
+      - feature-engine==1.9.4
+      - category-encoders==2.6.4
+      # Install legacy pymrmr afterward with scripts/install_pymrmr.py.

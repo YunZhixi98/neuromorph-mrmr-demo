@@ -1,0 +1,13 @@
+numpy>=1.26,<2
+pandas>=2.2,<3
+scipy>=1.11,<1.14
+scikit-learn>=1.4,<1.6
+matplotlib
+seaborn>=0.13,<0.14
+jupyterlab
+openpyxl
+Cython==0.29.37
+mrmr-selection==0.2.8
+feature-engine==1.9.4
+category-encoders==2.6.4
+# Install legacy pymrmr afterward with: python scripts/install_pymrmr.py
