@@ -1,5 +1,9 @@
 # mRMR for dendritic morphology
 
+**Course:** CSHA *Neural Data Science for Large-scale Recordings*  
+**Location:** Suzhou, China  
+**Dates:** August 16–30, 2026
+
 This tutorial uses 22 dendritic morphology features to find a compact,
 complementary feature set for distinguishing Cortex, Thalamus, and CP neurons.
 The main notebook implements count-based mutual information and greedy MID mRMR,
